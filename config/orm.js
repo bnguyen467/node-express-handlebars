@@ -23,11 +23,11 @@ orm.update = (table, updates, where, cb) => {
   })
 }
 
-// orm.delete = (table, where, cb) => {
-//   db.query(`DELETE FROM ${table} WHERE ?`, where, err => {
-//     if (err) { console.log(err) }
-//     cb()
-//   })
-// }
+orm.delete = (table, where, cb) => {
+  db.query(`DELETE FROM ${table} WHERE ?`, where, err => {
+    if (err) { console.log(err) }
+    cb()
+  })
+}
 
 module.exports = orm

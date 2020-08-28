@@ -7,4 +7,4 @@ const db = mysql.createConnection({
     database: "burgers_db"
 })
 
-module.module = db;
+module.exports = db;

@@ -14,8 +14,8 @@ model.updateOne = (updates, where, cb) => {
     orm.update('burgers', updates, where, () => cb())
 }
 
-// model.deletOne = (where, cb) => {
-//     orm.delete('burgers', where, () => cb())
-// }
+model.deleteOne = (where, cb) => {
+    orm.delete('burgers', where, () => cb())
+}
 
 module.exports = model;

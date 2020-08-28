@@ -16,9 +16,15 @@ router.post('/burgers', (req, res) => {
 })
 
 // Update one burger
-router.get('/burgers/:id', (req, res) => {
+router.put('/burgers/:id', (req, res) => {
     burger.updateOne(req.body, { id: req.params.id }, () => {
-        res.send('Burger Updated!');
+        res.sendStatus(200);
+    })
+})
+
+router.delete('/burgers/:id', (req, res) => {
+    burger.deleteOne({ id: req.params.id }, () => {
+      res.sendStatus(200)
     })
 })
 

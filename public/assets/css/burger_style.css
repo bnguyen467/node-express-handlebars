@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(55, 154, 211);
+}
+
+body h1 {
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem 0rem 1.5rem;
+    font-size: 60px;
+}
+
+.badge{
+    color: yellow;
+    font-size: 60px;
+    padding: .5rem 1rem 1rem;
+}
+
+.badge:hover{
+    color: yellowgreen;
+}
+
+.textarea{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product{
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+}
+
+.submitBtn{
+    background-color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
