@@ -14,7 +14,7 @@ document.getElementById('submitButton').addEventListener('click', event => {
            <h5 class="mb-1">${document.getElementById('input').value}</h5>
            <button 
             data-name="${document.getElementById('input').value}"
-            class="Devoured btn btn-success">Devoure it</button>
+            class="Devoured btn btn-success">Devour it</button>
          </div>`
         document.getElementById('notDevoured').append(burgerElem)
   

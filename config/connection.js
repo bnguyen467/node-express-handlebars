@@ -5,6 +5,6 @@ const db = mysql.createConnection({
     user: "root",
     password: "rootroot",
     database: "burgers_db"
-})
+} || process.env.JAWSDB_URL)
 
 module.exports = db;
