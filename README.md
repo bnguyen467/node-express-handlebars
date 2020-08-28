@@ -1,16 +1,9 @@
-# Employee Tracker
-### Welcome to my Employee Tracker
+# Eat Da Burger
+### Welcome to my Eat Da Burger website
 
 # Description: 
 This nodejs application allows user to maintain database of a company properly.</br>
-**The user can:**
-- View/add/remove employees
-- View all employees by manager
-- Update employees by role/manager
-- View/add/remove departments
-- View/add/remove roles
-- See the total salary budget of departments </br>
-**The application uses:**
+
 - npm inquirer: to interact with users
 - npm mysql2: to make connection with the local database
 - npm console.table: to display data nicely on a table in the terminal
