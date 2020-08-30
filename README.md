@@ -3,6 +3,11 @@
 
 # Description: 
 This nodejs application allows users to keep track of their favorite burgers.</br>
+The users will be able to: 
+- Add a burger to their wish list
+- "Devour" the burger after they have tried it, the burger will then move to devoured list
+- Delete the burger from the devoured list </br>
+</br>
 The application uses npm express, mysql2, express handlebars
 
 # Installation:
