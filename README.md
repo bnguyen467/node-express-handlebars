@@ -2,16 +2,13 @@
 ### Welcome to my Eat Da Burger website
 
 # Description: 
-This nodejs application allows user to maintain database of a company properly.</br>
-
-- npm inquirer: to interact with users
-- npm mysql2: to make connection with the local database
-- npm console.table: to display data nicely on a table in the terminal
+This nodejs application allows users to keep track of their favorite burgers.</br>
+The application uses npm express, mysql2, express handlebars
 
 # Installation:
 1. Clone the folder from github
 2. In the terminal, run the command "npm i"
-3. To run the application, run the command "node app.js"
+3. To run the application, run the command "node server.js". Then open your browser and run "localhost:3000"
 
 ## Questions
 Find me on github: [bnguyen467](https://github.com/bnguyen467)
