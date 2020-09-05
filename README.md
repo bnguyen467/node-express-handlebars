@@ -20,6 +20,7 @@ Find me on github: [bnguyen467](https://github.com/bnguyen467)
 </br>
 Contact me through email: 467bnguyen@gmail.com
 
+### Link to the active website [here](https://damp-oasis-79916.herokuapp.com/)
 ### This is how the application looks like:
 ![example image](./public/assets/img/example-image.png)
 
